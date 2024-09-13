@@ -14,6 +14,3 @@ app.all("*", (req, res, next) => {
 });
 
 module.exports = app;
-
-// new change here
-console.log("Hello World");
