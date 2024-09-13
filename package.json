@@ -1,0 +1,36 @@
+{
+  "name": "doctor-appointments-app",
+  "version": "1.0.0",
+  "description": "An API for doctor appointment booking, allows users to search for doctors based of various factors and to Reserve appointment with the desired doctor, in the other hand it allows the doctors to manage and schedule their appointments.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "musab ibrahim",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.12.0",
+    "winston": "^3.14.2",
+    "xss": "^1.0.15",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
